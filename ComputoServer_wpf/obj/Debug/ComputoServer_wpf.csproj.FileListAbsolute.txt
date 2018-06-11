@@ -1,0 +1,77 @@
+C:\Users\LaMasPerrona\Documents\TRAYECTORIA ESCOLAR\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\ComputoServer_wpf.exe
+C:\Users\LaMasPerrona\Documents\TRAYECTORIA ESCOLAR\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\ComputoServer_wpf.pdb
+C:\Users\LaMasPerrona\Documents\TRAYECTORIA ESCOLAR\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf.csprojResolveAssemblyReference.cache
+C:\Users\LaMasPerrona\Documents\TRAYECTORIA ESCOLAR\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\MainWindow.g.cs
+C:\Users\LaMasPerrona\Documents\TRAYECTORIA ESCOLAR\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\App.g.cs
+C:\Users\LaMasPerrona\Documents\TRAYECTORIA ESCOLAR\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf_MarkupCompile.cache
+C:\Users\LaMasPerrona\Documents\TRAYECTORIA ESCOLAR\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf_MarkupCompile.lref
+C:\Users\LaMasPerrona\Documents\TRAYECTORIA ESCOLAR\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\MainWindow.baml
+C:\Users\LaMasPerrona\Documents\TRAYECTORIA ESCOLAR\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf.g.resources
+C:\Users\LaMasPerrona\Documents\TRAYECTORIA ESCOLAR\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf.Properties.Resources.resources
+C:\Users\LaMasPerrona\Documents\TRAYECTORIA ESCOLAR\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf.csproj.GenerateResource.Cache
+C:\Users\LaMasPerrona\Documents\TRAYECTORIA ESCOLAR\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf.exe
+C:\Users\LaMasPerrona\Documents\TRAYECTORIA ESCOLAR\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf.pdb
+C:\Users\LaMasPerrona\Documents\TRAYECTORIA ESCOLAR\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\ComputoServer_wpf.exe.config
+C:\Users\LaMasPerrona\Documents\TRAYECTORIA ESCOLAR\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\MaterialDesignColors.dll
+C:\Users\LaMasPerrona\Documents\TRAYECTORIA ESCOLAR\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\LaMasPerrona\Documents\TRAYECTORIA ESCOLAR\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\LaMasPerrona\Documents\TRAYECTORIA ESCOLAR\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\LaMasPerrona\Documents\TRAYECTORIA ESCOLAR\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\App.baml
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\ComputoServer_wpf.exe.config
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf.exe
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf.pdb
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\ComputoServer_wpf.exe
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\ComputoServer_wpf.pdb
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\MaterialDesignColors.dll
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf.csprojResolveAssemblyReference.cache
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\MainWindow.g.cs
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\App.g.cs
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf_MarkupCompile.cache
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf_MarkupCompile.lref
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\App.baml
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\MainWindow.baml
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf.g.resources
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf.Properties.Resources.resources
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf.csproj.GenerateResource.Cache
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\usuarios.g.cs
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\Entidades.dll
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\Negocio.dll
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\Datos.dll
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\MySql.Data.dll
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\Entidades.pdb
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\Negocio.pdb
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\Datos.pdb
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\MySql.Data.xml
+C:\Users\ComputoAdmin\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\usuarios.baml
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\ComputoServer_wpf.exe.config
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf.exe
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf.pdb
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\ComputoServer_wpf.exe
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\ComputoServer_wpf.pdb
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\Entidades.dll
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\MaterialDesignColors.dll
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\MaterialDesignThemes.Wpf.dll
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\Negocio.dll
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\Datos.dll
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\MySql.Data.dll
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\Entidades.pdb
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\MaterialDesignThemes.Wpf.pdb
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\MaterialDesignThemes.Wpf.xml
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\Negocio.pdb
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\Datos.pdb
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\bin\Debug\MySql.Data.xml
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf.csprojResolveAssemblyReference.cache
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\MainWindow.g.cs
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\usuarios.g.cs
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\App.g.cs
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf_MarkupCompile.cache
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf_MarkupCompile.lref
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\App.baml
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\MainWindow.baml
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\usuarios.baml
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf.g.resources
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf.Properties.Resources.resources
+E:\Users\Computo1\Documents\Proyectos Visual Studio\ComputoServer_wpf\ComputoServer_wpf\obj\Debug\ComputoServer_wpf.csproj.GenerateResource.Cache

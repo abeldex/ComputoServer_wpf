@@ -1,0 +1,113 @@
+﻿<Window x:Class="ComputoServer_wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns:local="clr-namespace:ComputoServer_wpf"
+        mc:Ignorable="d"
+        Title="Servidor Centro Computo" Height="800" Width="1250" Loaded="Window_Loaded" Closing="Window_Closing"
+        TextOptions.TextFormattingMode="Ideal" 
+        TextOptions.TextRenderingMode="Auto" ResizeMode="CanResize" WindowStartupLocation="CenterScreen" WindowState="Normal">
+    <Window.Resources>
+
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Button.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Card.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.CheckBox.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Flipper.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Popupbox.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.TextBox.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <Style TargetType="{x:Type ComboBox}" BasedOn="{StaticResource MaterialDesignComboBox}">
+                <Setter Property="HorizontalAlignment" Value="Stretch" />
+                <Setter Property="Margin" Value="0 8 0 8" />
+            </Style>
+
+            <ContextMenu x:Key="SharedContextMenu" x:Shared="true">
+                <MenuItem Header="Bloquear" Click="MenuItem_Click" >
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="Lock" Height="16" Width="16"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <Separator/>
+                <MenuItem Header="Desbloquear" Click="MenuItem_Click_1">
+                    <MenuItem.Icon>
+                        <materialDesign:PackIcon Kind="DesktopMac" Height="16" Width="16"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+            </ContextMenu>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="http://geodesia.uas.edu.mx/images/cabecera22.png" TileMode="Tile" Stretch="UniformToFill"  />
+        </Grid.Background>
+        <materialDesign:ColorZone Padding="20" materialDesign:ShadowAssist.ShadowDepth="Depth1"
+                                            Mode="Dark" DockPanel.Dock="Top" Background="#530630">
+            <DockPanel>
+                <materialDesign:PackIcon DockPanel.Dock="Left" Kind="DesktopMac" Height="24" Width="24" />
+                <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="18">Sistema de Control de Acceso al Centro de Cómputo</TextBlock>
+            </DockPanel>
+        </materialDesign:ColorZone>
+        <Button x:Name="btm_actualizar" Style="{StaticResource MaterialDesignFloatingActionButton}"
+                        Margin="0,5,10,0" HorizontalAlignment="Right" VerticalAlignment="Top"
+                        ToolTip="Actualizar" Height="48" Width="48" Click="btm_actualizar_Click" Background="White" BorderBrush="#FFD1D1D1">
+            <materialDesign:PackIcon Kind="Sync" Height="24" Width="24" Foreground="Gray" />
+
+        </Button>
+        <Button x:Name="btn_usuarios" Style="{StaticResource MaterialDesignFloatingActionButton}"
+                        Margin="0,5,80,0" HorizontalAlignment="Right" VerticalAlignment="Top"
+                        ToolTip="Administración de usuarios" Height="48" Width="48" Background="White" BorderBrush="#FFD1D1D1" Click="btn_usuarios_Click">
+            <materialDesign:PackIcon Kind="AccountCardDetails" Height="24" Width="24" Foreground="Green" />
+
+        </Button>
+
+
+        <DockPanel>
+
+        </DockPanel>
+        <ScrollViewer Margin="50,100,50,50" VerticalScrollBarVisibility="Disabled">
+            <Grid x:Name="GridPCS">
+                <Image x:Name="CC_01" HorizontalAlignment="Left" Height="105" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png"  Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}" MouseDown="CC_01_MouseDown"/>
+                <Image x:Name="CC_02" HorizontalAlignment="Left" Height="105" Margin="134,0,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}" />
+                <Image x:Name="CC_03" HorizontalAlignment="Left" Height="105" Margin="267,0,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png"  Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_04" HorizontalAlignment="Left" Height="105" Margin="402,0,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}" />
+                <Image x:Name="CC_05" HorizontalAlignment="Left" Height="105" Margin="628,0,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}" />
+                <Image x:Name="CC_06" HorizontalAlignment="Left" Height="105" Margin="762,0,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_07" HorizontalAlignment="Left" Height="105" Margin="895,0,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_08" HorizontalAlignment="Left" Height="105" Margin="1029,0,-17,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_09" HorizontalAlignment="Left" Height="105" Margin="0,162,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png"  Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_10" HorizontalAlignment="Left" Height="105" Margin="134,162,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_11" HorizontalAlignment="Left" Height="105" Margin="267,162,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png"  Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_12" HorizontalAlignment="Left" Height="105" Margin="402,162,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_13" HorizontalAlignment="Left" Height="105" Margin="628,162,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_14" HorizontalAlignment="Left" Height="105" Margin="762,162,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_15" HorizontalAlignment="Left" Height="105" Margin="895,162,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_16" HorizontalAlignment="Left" Height="105" Margin="1029,162,-17,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_17" HorizontalAlignment="Left" Height="105" Margin="0,322,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png"  Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_18" HorizontalAlignment="Left" Height="105" Margin="134,322,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_19" HorizontalAlignment="Left" Height="105" Margin="267,322,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png"  Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_20" HorizontalAlignment="Left" Height="105" Margin="402,322,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_21" HorizontalAlignment="Left" Height="105" Margin="628,322,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_22" HorizontalAlignment="Left" Height="105" Margin="762,322,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_23" HorizontalAlignment="Left" Height="105" Margin="895,322,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_24" HorizontalAlignment="Left" Height="105" Margin="1029,322,-17,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_25" HorizontalAlignment="Left" Height="105" Margin="0,482,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png"  Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_26" HorizontalAlignment="Left" Height="105" Margin="134,482,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_27" HorizontalAlignment="Left" Height="105" Margin="267,482,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png"  Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_28" HorizontalAlignment="Left" Height="105" Margin="402,482,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_29" HorizontalAlignment="Left" Height="105" Margin="628,482,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_30" HorizontalAlignment="Left" Height="105" Margin="762,482,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_31" HorizontalAlignment="Left" Height="105" Margin="895,482,0,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+                <Image x:Name="CC_32" HorizontalAlignment="Left" Height="105" Margin="1029,482,-17,0" VerticalAlignment="Top" Width="126" Source="Resources/img/pc_off.png" Cursor="Hand" ContextMenu="{DynamicResource SharedContextMenu}"/>
+            </Grid>
+        </ScrollViewer>
+        <!-- segunda linea -->
+        <!-- tercera linea -->
+        <!-- cuarta linea -->
+    </Grid>
+
+</Window>
